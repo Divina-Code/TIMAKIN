@@ -6,7 +6,7 @@ while isGuessed != True:
     if computer_number == "35":
         print('Well done')
         isGuessed = True
-    elif answer => "35":
+    elif answer >= "35":
         print('Try again')
     else:
         print('Almost...')
