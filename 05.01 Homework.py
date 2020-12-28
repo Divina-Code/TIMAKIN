@@ -1,13 +1,15 @@
-computer_number = 35
+from random import randint as rint
+
+computer_number = rint(0,100)
 isGuessed = False
 input("Hello, Let's play the game guess the number ")
 
 while isGuessed != True:
-    answer = int(input("Guess the number"))
+    answer = int(input("Guess the number "))
     if answer == computer_number:
         print('Well done')
         isGuessed = True
     elif answer > computer_number:
-        print('Try again')
+        print('Много')
     else:
-        print('Almost...')
+        print('Мало')
