@@ -1,6 +1,5 @@
 print("Привет!")
-palindrom = input("Напиши палиндром ").lower()
-palindrom = palindrom.split(' ')
+palindrom = input("Напиши палиндром ").lower().split()
 print(palindrom)
 for Pl1 in palindrom:
     palEdrom = Pl1[::-1].lower()
