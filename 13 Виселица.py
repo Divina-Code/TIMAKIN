@@ -23,15 +23,15 @@ while Spisok_letters != 0 and Gizni:
                 Spisok_letters -= 1
             game = True
             vse_slovo[schet] = letter
-        schet += 1
-    if not test :
+    schet += 1
+    if not game :
         Gizni -=1
         print('Неа - 1 hp')
     else:
         print('Ага , молодец')
         print(vse_slovo)
     print("У тебя ", Gizni)
-if (Spisok_letters == 0)
+if (Spisok_letters == 0):
     print("Ну ты крутой . Ты угадал. Это было" , word)
 else:
     print('Сорян , проиграл . Давай еще!')
